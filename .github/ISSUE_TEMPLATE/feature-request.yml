@@ -1,0 +1,108 @@
+name: Feature Request
+description: Suggest a new feature, enhancement, or product improvement
+title: "[Feature]: "
+labels:
+  - feature
+  - needs-triage
+type: Feature
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting an improvement for Elitea.
+        
+        For early-stage brainstorming, consider opening a Discussion first if you want broader community feedback.
+
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: A short title for the request
+      placeholder: Briefly describe the feature or improvement
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem_statement
+    attributes:
+      label: Problem statement
+      description: What problem are you trying to solve?
+      placeholder: Describe the pain point, limitation, or missing capability
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed solution
+      description: What would you like to happen?
+      placeholder: Describe the feature, workflow, or behavior you want
+    validations:
+      required: true
+
+  - type: textarea
+    id: user_value
+    attributes:
+      label: User / business value
+      description: Why is this important? Who benefits and how?
+      placeholder: Explain the expected value, impact, or outcome
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Have you considered other approaches or workarounds?
+      placeholder: Describe any alternatives, partial solutions, or current workarounds
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance criteria
+      description: What conditions would make this request complete or successful?
+      placeholder: |
+        - [ ] Users can ...
+        - [ ] Admins can ...
+        - [ ] The system should ...
+    validations:
+      required: false
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Requested priority / impact
+      description: How important is this request for your use case?
+      options:
+        - Critical
+        - High
+        - Medium
+        - Low
+    validations:
+      required: true
+
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Example use case
+      description: Provide a practical example of when this would be used
+      placeholder: Describe a realistic workflow or scenario
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      description: Add mockups, screenshots, references, or related links if helpful
+      placeholder: Add any supporting material here
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submission checks
+      options:
+        - label: I searched existing issues and discussions before creating this request
+          required: true
+        - label: This request describes a user need, not only a technical implementation detail
+          required: true
