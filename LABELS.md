@@ -11,11 +11,27 @@ Labels help us:
 - group similar issues and requests
 - route items to the right product area
 - identify integrations involved
-- show triage status
-- communicate whether we need more information
+- support filtering and searching
+- communicate whether more information is needed
 - highlight beginner-friendly or community-help opportunities
 
 Labels are applied by maintainers during triage. In some cases, issue templates may also apply default labels automatically.
+
+## Labels vs project status
+
+The **Elitea Community Triage** project is the primary place where workflow state is tracked.
+
+In general:
+
+- **labels** classify the item
+- **project fields** track workflow, priority, severity, and planning
+
+For example:
+
+- labels may tell us that an item is a `type:bug`, affects `feat:chat`, and relates to `int:github`
+- the project tracks whether the item is `New`, `To triage`, `Backlog`, `Accepted`, `In progress`, `In Testing`, or `Done`
+
+See [PROJECTS.md](./PROJECTS.md) for the project workflow.
 
 ---
 
@@ -24,7 +40,7 @@ Labels are applied by maintainers during triage. In some cases, issue templates 
 We use the following label groups:
 
 - `type:*` — what kind of item it is
-- `meta:*` — triage or workflow state
+- `meta:*` — triage context or resolution markers
 - `comm:*` — community-origin feedback
 - `feat:*` — product area or feature area
 - `int:*` — integration involved
@@ -64,13 +80,13 @@ Examples:
 ### `type:question`
 Used for support-style questions or requests for clarification.
 
-In many cases, these may be redirected to **GitHub Discussions**, especially Q&A or Troubleshooting categories.
+In many cases, these may be redirected to **GitHub Discussions**, especially Q&A or Troubleshooting topics.
 
 ---
 
 ## `meta:*` labels
 
-These labels show the current review or decision state.
+These labels provide triage context or resolution markers.
 
 ### `meta:needs-triage`
 The issue is new and waiting for maintainer review.
@@ -90,7 +106,7 @@ The issue or request is already tracked elsewhere.
 The issue is incomplete, not actionable, or not actually a product issue.
 
 ### `meta:accepted`
-The issue was reviewed and accepted for internal tracking or deeper consideration.
+The issue was reviewed and accepted for implementation planning or active work consideration.
 
 ### `meta:planned`
 The request or fix is accepted and planned for future work.
@@ -173,9 +189,10 @@ Examples include:
 
 ### When integration labels are applied
 Maintainers use these labels when the issue is related to:
+
 - connecting Elitea to another system
 - importing/exporting with another platform
-- plugin/extension behavior
+- plugin or extension behavior
 - auth/provider connection flows
 - API contract or specification issues
 
@@ -225,12 +242,13 @@ You usually do **not** need to apply labels manually.
 
 Instead:
 
-1. Choose the correct issue template
-2. Provide complete details
-3. Search existing issues and discussions first
-4. Let maintainers classify and triage the item
+1. choose the correct issue template
+2. provide complete details
+3. search existing issues and discussions first
+4. let maintainers classify and triage the item
 
 The clearest way to help is to write a complete, focused issue with:
+
 - a good summary
 - reproducible steps
 - expected and actual behavior
@@ -256,15 +274,20 @@ Before opening a new issue:
 
 Please do **not** use public issues for sensitive security vulnerabilities.
 
-See `SECURITY.md` for the correct private reporting process.
+See [SECURITY.md](./SECURITY.md) for the correct private reporting process.
 
 ---
 
 ## Questions?
 
 If you are not sure whether your topic belongs in:
+
 - an issue
 - a feature request
 - a discussion
 
-start with **GitHub Discussions** or check the repository `README.md` and `CONTRIBUTING.md`.
+start with **GitHub Discussions** or check:
+
+- [README.md](./README.md)
+- [CONTRIBUTING.md](./CONTRIBUTING.md)
+- [PROJECTS.md](./PROJECTS.md)
