@@ -56,7 +56,7 @@ Examples of unacceptable behavior include:
 
 ## Community-specific guidance
 
-Because this repository is used for bugs, feature requests, and public discussions, please also follow these practical guidelines:
+Because this repository is used for bugs, feature requests, and public discussions, please also follow these practical guidelines.
 
 ### When reporting bugs
 - stay factual and specific
@@ -99,7 +99,7 @@ Maintainers are expected to enforce this Code of Conduct fairly, consistently, a
 
 If you experience or witness harassment, abuse, discrimination, threats, privacy violations, or other unacceptable behavior, please report it to the Elitea community team.
 
-**Code of Conduct contact:** `<ADD_ELITEA_COMMUNITY_CONTACT>`
+**Code of Conduct contact:** `SupportAlita@epam.com`
 
 When making a report, please include if possible:
 
@@ -143,10 +143,10 @@ We want this repository to be a place where people can:
 
 Please also review:
 
-- `README.md`
-- `CONTRIBUTING.md`
-- `SECURITY.md`
-- `SUPPORT.md`
+- [README.md](./README.md)
+- [CONTRIBUTING.md](./CONTRIBUTING.md)
+- [SECURITY.md](./SECURITY.md)
+- [SUPPORT.md](./SUPPORT.md)
 
 ## Attribution
 
