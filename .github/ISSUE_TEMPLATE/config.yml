@@ -1,10 +1,10 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Elitea Discussions
-    url: https://github.com/EliteaAI/elitea-community/discussions
-    about: Ask questions, share ideas, and discuss Elitea with the community.
+  - name: Elitea Community Discussions
+    url: https://github.com/EliteaAI/elitea_community/discussions
+    about: Ask questions, share ideas, discuss improvements, and get help from the community.
   - name: Security reporting
-    url: https://github.com/EliteaAI/elitea-community/security/policy
+    url: https://github.com/EliteaAI/elitea_community/security/policy
     about: Please do not report security vulnerabilities in public issues.
   - name: Elitea Documentation
     url: https://docs.elitea.ai
