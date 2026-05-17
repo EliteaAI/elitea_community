@@ -70,13 +70,13 @@ body:
   - type: dropdown
     id: severity
     attributes:
-      label: Severity / impact
+      label: Severity
       description: How serious is this problem for you?
       options:
-        - Critical - blocks core usage or causes major failure
-        - High - major feature impaired, limited workaround
-        - Medium - noticeable issue, workaround available
-        - Low - minor issue or cosmetic problem
+        - Blocker
+        - Critical
+        - Relatively Critical
+        - Not Critical
     validations:
       required: true
 
