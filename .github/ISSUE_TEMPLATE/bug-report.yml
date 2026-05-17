@@ -1,0 +1,114 @@
+name: Bug Report
+description: Report a reproducible problem in Elitea
+title: "[BUG]: "
+labels:
+  - bug
+  - needs-triage
+type: BUG
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug. Please provide as much detail as possible.
+        
+        Do not include passwords, API keys, tokens, customer data, or other sensitive information.
+
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: A short summary of the problem
+      placeholder: Briefly describe the bug
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the issue in more detail
+      placeholder: What happened? When did it happen? What were you trying to do?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Provide clear steps so the team can reproduce the problem
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. Enter ...
+        4. See error ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+      placeholder: Describe the expected result
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: Actual behavior
+      description: What actually happened?
+      placeholder: Describe the actual result
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity / impact
+      description: How serious is this problem for you?
+      options:
+        - Critical - blocks core usage or causes major failure
+        - High - major feature impaired, limited workaround
+        - Medium - noticeable issue, workaround available
+        - Low - minor issue or cosmetic problem
+    validations:
+      required: true
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Workaround
+      description: Is there any temporary workaround?
+      placeholder: Describe any workaround, or write "None"
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Provide relevant environment details
+      placeholder: |
+        - Elitea version:
+        - Deployment type:
+        - Browser:
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Screenshots or logs
+      description: Add screenshots, screen recordings, or sanitized logs if available
+      placeholder: Paste sanitized logs or drag and drop screenshots here
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submission checks
+      options:
+        - label: I searched existing issues and discussions before creating this report
+          required: true
+        - label: I removed or redacted sensitive information
+          required: true
+        - label: I can reproduce this issue consistently, or I have explained why I cannot
+          required: false
