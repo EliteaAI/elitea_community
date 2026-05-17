@@ -110,9 +110,9 @@ body:
         - PDF
 
   - type: dropdown
-    id: requested_priority
+    id: requested_impact
     attributes:
-      label: Requested priority / impact
+      label: Requested impact
       description: How important is this request for your use case?
       options:
         - Critical
