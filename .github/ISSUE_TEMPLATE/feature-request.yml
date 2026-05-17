@@ -2,16 +2,18 @@ name: Feature Request
 description: Suggest a new feature, enhancement, or product improvement
 title: "[Feature]: "
 labels:
-  - feature
-  - needs-triage
+  - type:feature
+  - meta:needs-triage
 type: Feature
 body:
   - type: markdown
     attributes:
       value: |
         Thank you for suggesting an improvement for Elitea.
-        
-        For early-stage brainstorming, consider opening a Discussion first if you want broader community feedback.
+
+        Use this template for feature requests, enhancements, and product improvement proposals.
+
+        For early-stage brainstorming, broader feedback, or open-ended discussion, please consider using **Discussions** in `EliteaAI/elitea_community` first.
 
   - type: input
     id: summary
@@ -50,26 +52,65 @@ body:
       required: true
 
   - type: textarea
-    id: alternatives
+    id: use_case
     attributes:
-      label: Alternatives considered
-      description: Have you considered other approaches or workarounds?
-      placeholder: Describe any alternatives, partial solutions, or current workarounds
-
-  - type: textarea
-    id: acceptance_criteria
-    attributes:
-      label: Acceptance criteria
-      description: What conditions would make this request complete or successful?
-      placeholder: |
-        - [ ] Users can ...
-        - [ ] Admins can ...
-        - [ ] The system should ...
+      label: Example use case
+      description: Provide a practical example of when this would be used
+      placeholder: Describe a realistic workflow or scenario
     validations:
-      required: false
+      required: true
 
   - type: dropdown
-    id: priority
+    id: affected_area
+    attributes:
+      label: Feature area
+      description: Which Elitea area is most related to this request?
+      options:
+        - Agents
+        - Agent Studio
+        - Agent Publishing
+        - Chat
+        - Pipelines
+        - Toolkits
+        - Extensions
+        - Templates
+        - Credentials
+        - Settings
+        - Roles & Permissions
+        - User Profile
+        - Notifications
+        - Attachments
+        - Resources
+        - Analytics
+        - Monitoring
+        - Voice
+        - Workflow
+        - Apps
+        - Login / Authentication
+
+  - type: dropdown
+    id: related_integration
+    attributes:
+      label: Related integration
+      description: If applicable, select the integration involved
+      options:
+        - GitHub
+        - GitLab
+        - Jira
+        - Confluence
+        - Figma
+        - SharePoint
+        - VS Code
+        - Visual Studio
+        - JetBrains
+        - OAuth
+        - OpenAPI
+        - Excel
+        - CSV
+        - PDF
+
+  - type: dropdown
+    id: requested_priority
     attributes:
       label: Requested priority / impact
       description: How important is this request for your use case?
@@ -82,19 +123,27 @@ body:
       required: true
 
   - type: textarea
-    id: use_case
+    id: acceptance_criteria
     attributes:
-      label: Example use case
-      description: Provide a practical example of when this would be used
-      placeholder: Describe a realistic workflow or scenario
-    validations:
-      required: true
+      label: Acceptance criteria
+      description: What conditions would make this request complete or successful?
+      placeholder: |
+        - [ ] Users can ...
+        - [ ] Admins can ...
+        - [ ] The system should ...
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Have you considered other approaches or workarounds?
+      placeholder: Describe any alternatives, partial solutions, or current workarounds
 
   - type: textarea
     id: additional_context
     attributes:
       label: Additional context
-      description: Add mockups, screenshots, references, or related links if helpful
+      description: Add mockups, screenshots, references, links, or related discussions if helpful
       placeholder: Add any supporting material here
 
   - type: checkboxes
@@ -102,7 +151,9 @@ body:
     attributes:
       label: Pre-submission checks
       options:
-        - label: I searched existing issues and discussions before creating this request
+        - label: I searched existing issues before creating this request
           required: true
-        - label: This request describes a user need, not only a technical implementation detail
+        - label: I searched existing discussions in EliteaAI/elitea_community before creating this request
+          required: true
+        - label: This request describes a user need or product improvement, not only a technical implementation detail
           required: true
