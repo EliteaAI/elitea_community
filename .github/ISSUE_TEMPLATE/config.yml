@@ -9,6 +9,3 @@ contact_links:
   - name: Elitea Documentation
     url: https://docs.elitea.ai
     about: Check the documentation before opening a question or support issue.
-issue_template:
-  - bug-report.yml
-  - feature-request.yml
