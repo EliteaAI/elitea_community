@@ -22,7 +22,7 @@ body:
       description: A short title for the request
       placeholder: Briefly describe the feature or improvement
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: problem_statement
@@ -31,7 +31,7 @@ body:
       description: What problem are you trying to solve?
       placeholder: Describe the pain point, limitation, or missing capability
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: proposed_solution

@@ -25,7 +25,7 @@ body:
       description: A short summary of the problem
       placeholder: Briefly describe the bug
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: description
@@ -34,7 +34,7 @@ body:
       description: Describe the issue in more detail
       placeholder: What happened? When did it happen? What were you trying to do?
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: steps_to_reproduce
