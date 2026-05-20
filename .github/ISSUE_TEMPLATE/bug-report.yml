@@ -16,7 +16,7 @@ body:
         **Important**
         - Search existing issues and discussions before creating a new report
         - Do not include passwords, API keys, tokens, customer data, or other sensitive information
-        - For security vulnerabilities, do not use public issues; follow the guidance in `SECURITY.md`
+        - If this issue may describe a security vulnerability, do **not** submit it publicly; use the repository's **Security** tab and select **Report a vulnerability**
 
   - type: input
     id: summary
@@ -115,6 +115,7 @@ body:
       label: Related integration
       description: If applicable, select the integration involved
       options:
+        - None
         - GitHub
         - GitLab
         - Jira
@@ -136,6 +137,7 @@ body:
       label: Quality attribute
       description: If relevant, select the main quality concern
       options:
+        - None
         - Performance
         - Usability
         - UI
@@ -159,6 +161,8 @@ body:
         - Elitea version:
         - Deployment type:
         - Browser:
+        - OS:
+        - Region:
         - Integration(s) involved:
     validations:
       required: true
@@ -188,5 +192,5 @@ body:
           required: true
         - label: I removed or redacted sensitive information
           required: true
-        - label: This is not a private security vulnerability report
+        - label: If this issue is security-sensitive, I will use the repository's private vulnerability reporting flow instead of submitting a public issue
           required: true

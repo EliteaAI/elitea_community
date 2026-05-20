@@ -39,12 +39,12 @@ Use Discussions when you want to:
 
 Please do **not** use this repository for:
 
-- sensitive security vulnerability reports
+- security vulnerability disclosures
 - private customer data, credentials, tokens, or internal system details
 - urgent production incidents requiring immediate private support
 - confidential roadmap or internal planning discussions
 
-For security-related concerns, see [SECURITY.md](./SECURITY.md).
+For security vulnerabilities, use this repository’s **GitHub private vulnerability reporting** flow from the **Security** tab. See [SECURITY.md](./SECURITY.md) for details.
 
 ## Where to go
 
@@ -53,6 +53,7 @@ For security-related concerns, see [SECURITY.md](./SECURITY.md).
 - **Project board:** https://github.com/orgs/EliteaAI/projects/5/views/1
 - **Documentation:** https://docs.elitea.ai
 - **Main website:** https://elitea.ai
+- **Security vulnerabilities:** use **Security** → **Report a vulnerability**
 
 ## How to report a bug
 
@@ -66,6 +67,7 @@ For security-related concerns, see [SECURITY.md](./SECURITY.md).
    - environment details
    - screenshots or logs, if available
 4. Remove sensitive data before posting.
+5. If the issue is actually security-sensitive, do **not** open a public issue; use the repository’s private vulnerability reporting flow instead.
 
 ## How to request a feature
 

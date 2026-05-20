@@ -66,6 +66,7 @@ body:
       label: Feature area
       description: Which Elitea area is most related to this request?
       options:
+        - Not sure
         - Agents
         - Agent Studio
         - Agent Publishing
@@ -94,6 +95,7 @@ body:
       label: Related integration
       description: If applicable, select the integration involved
       options:
+        - None
         - GitHub
         - GitLab
         - Jira

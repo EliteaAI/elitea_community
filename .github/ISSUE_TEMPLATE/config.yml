@@ -5,7 +5,7 @@ contact_links:
     about: Ask questions, share ideas, discuss improvements, and get help from the community.
   - name: Security reporting
     url: https://github.com/EliteaAI/elitea_community/security/policy
-    about: Please do not report security vulnerabilities in public issues.
+    about: Do not report security vulnerabilities in public issues. Use the repository's private vulnerability reporting flow from the Security tab.
   - name: Elitea Documentation
     url: https://docs.elitea.ai
     about: Check the documentation before opening a question or support issue.

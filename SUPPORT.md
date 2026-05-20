@@ -34,9 +34,11 @@ Please:
 
 ## Security issues
 
-Do **not** use public issues or discussions for security reports.
+Do **not** use public issues or discussions for security vulnerability reports.
 
-See [SECURITY.md](./SECURITY.md) for the correct private reporting process.
+Instead, use this repository’s **Security** tab and select **Report a vulnerability**.
+
+See [SECURITY.md](./SECURITY.md) for the full reporting guidance.
 
 ## Community guidance
 

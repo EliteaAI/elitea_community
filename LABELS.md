@@ -274,7 +274,9 @@ Before opening a new issue:
 
 Please do **not** use public issues for sensitive security vulnerabilities.
 
-See [SECURITY.md](./SECURITY.md) for the correct private reporting process.
+Use the repository’s **Security** tab and select **Report a vulnerability**.
+
+See [SECURITY.md](./SECURITY.md) for the full private reporting process.
 
 ---
 

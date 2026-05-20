@@ -54,6 +54,8 @@ Please use the **Bug Report** template and include:
 
 Please redact sensitive data before posting.
 
+If the issue may be a **security vulnerability**, do **not** open a public issue. Use the repository’s **Security** tab and select **Report a vulnerability**. See [SECURITY.md](./SECURITY.md).
+
 ## Requesting features
 
 Please use the **Feature Request** template and include:
@@ -104,7 +106,7 @@ The **project board** is used to track workflow state such as:
 
 Please do **not** report security vulnerabilities in public issues or discussions.
 
-Use the private process described in [SECURITY.md](./SECURITY.md).
+Use the repository’s **Security** tab and select **Report a vulnerability**, or follow the guidance in [SECURITY.md](./SECURITY.md).
 
 ## Community standards
 

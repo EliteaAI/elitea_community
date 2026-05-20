@@ -1,6 +1,6 @@
 # Elitea Community Triage Project Guide
 
-This document explains how the **[Elitea Community Triage*](https://github.com/orgs/EliteaAI/projects/5/views/1)* project is used in the public Elitea community workflow.
+This document explains how the **Elitea Community Triage** project is used in the public Elitea community workflow.
 
 The project tracks public community-reported items from initial intake through review, backlog, implementation, testing, and completion.
 
@@ -16,6 +16,10 @@ The **Elitea Community Triage** project exists to:
 The default repository for this project is:
 
 - `EliteaAI/elitea_community`
+
+## Project board
+
+- https://github.com/orgs/EliteaAI/projects/5/views/1
 
 ## What is tracked in the project
 
