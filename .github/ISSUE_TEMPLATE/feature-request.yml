@@ -31,7 +31,7 @@ body:
       description: What problem are you trying to solve?
       placeholder: Describe the pain point, limitation, or missing capability
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: proposed_solution
@@ -95,7 +95,6 @@ body:
       label: Related integration
       description: If applicable, select the integration involved
       options:
-        - None
         - GitHub
         - GitLab
         - Jira
