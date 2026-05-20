@@ -115,7 +115,6 @@ body:
       label: Related integration
       description: If applicable, select the integration involved
       options:
-        - None
         - GitHub
         - GitLab
         - Jira
@@ -137,7 +136,6 @@ body:
       label: Quality attribute
       description: If relevant, select the main quality concern
       options:
-        - None
         - Performance
         - Usability
         - UI
